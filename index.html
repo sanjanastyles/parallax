@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Scrolling - Vainilla JS</title>
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- FUENTES -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Slackey&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rancho&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarala&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <img class="logo" alt="logo" src="./images/logo.png" />
+      <div class="menu"></div>
+      <nav>
+        <ul class="menulist">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <img src="./images/backg.png" />
+      <img src="./images/grass1.png" alt="grass1" id="grass1" />
+      <img src="./images/grass2.png" alt="grass2" id="grass2" />
+      <img
+        src="./images/grass1shadow.png"
+        alt="grass1shadow"
+        id="grass1shadow"
+      />
+      <img
+        src="./images/grass2shadow.png"
+        alt="grass2shadow"
+        id="grass2shadow"
+      />
+      <img src="./images/backg1.png" />
+      <img src="./images/bush1.png" alt="bush1" id="bush1" />
+      <img src="./images/bush2.png" alt="bush2" id="bush2" />
+      <h2 id="slogan">Web Developer</h2>
+      <a href="#about" id="btn">Explore</a>
+      <img src="./images/lotus.png" alt="lotus" id="lotus" />
+      <img src="./images/water.png" alt="water" id="water" />
+      <img src="./images/weed.png" alt="weed" id="weed" />
+      <img src="./images/fish2.png" alt="fish2" id="fish2" />
+      <img src="./images/fish1.png" alt="fish1" id="fish1" />
+    </section>
+    <div id="about">
+      <div class="skills">
+        <div class="skill">
+          <div class="skill-name">HTML</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="90"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">CSS</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="70"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Javascript</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="60"></div>
+          </div>
+        </div>
+      </div>
+      <script src="./scripts.js"></script>
+    </div>
+    <!-- SCRIPT -->
+    <script src="./index.js"></script>
+  </body>
+</html>
